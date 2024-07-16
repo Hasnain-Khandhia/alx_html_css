@@ -1,1 +1,41 @@
+.what-we-do {
+    text-align: center;
+    padding: 50px 20px;
+}
 
+.what-we-do h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icon {
+    width: 30%;
+    margin: 20px 0;
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.icon p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+@media (max-width: 480px) {
+    .icons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icon {
+        width: 80%;
+    }
+}
